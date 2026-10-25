@@ -1,0 +1,27 @@
+# Raw datasets (keep local only)
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed datasets (uncomment if too large for GitHub > 50MB)
+# data/processed/*
+# !data/processed/.gitkeep
+
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Environment variables & secrets
+.env
+*.secret
+
+# OS specific files
+.DS_Store
+Thumbs.db
